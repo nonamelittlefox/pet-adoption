@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "292296302333",
+    "project_id": "izumi-mobile-app",
+    "storage_bucket": "izumi-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292296302333:android:89027042b2e3155a242894",
+        "android_client_info": {
+          "package_name": "com.vehoworks.IzumiApplicationMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292296302333-g25hkagq8k0lqu4ns4c4gstspe0r535c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-bfyDkDBv-steDE7aCi7J8lRVjnqE4Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292296302333-g25hkagq8k0lqu4ns4c4gstspe0r535c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292296302333-0q68jf8ijlk9am04882ar3mf2rhss56h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vehoworks.IzumiApplicationMobileStage",
+                "app_store_id": "1630055031"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292296302333:android:ee67473a2e14d933242894",
+        "android_client_info": {
+          "package_name": "com.vehoworks.IzumiApplicationMobileStage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292296302333-g25hkagq8k0lqu4ns4c4gstspe0r535c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-bfyDkDBv-steDE7aCi7J8lRVjnqE4Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292296302333-g25hkagq8k0lqu4ns4c4gstspe0r535c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292296302333-0q68jf8ijlk9am04882ar3mf2rhss56h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vehoworks.IzumiApplicationMobileStage",
+                "app_store_id": "1630055031"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
