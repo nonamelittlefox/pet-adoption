@@ -14,16 +14,17 @@ export default memo(Loading);
 
 const styles = StyleSheet.create({
   container: {
-    position: 'absolute',
-    width: '100%',
-    height: '100%',
-    backgroundColor: Colors.white,
     top: 0,
     left: 0,
     flex: 1,
-    justifyContent: 'center',
     zIndex: 999,
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    justifyContent: 'center',
+    backgroundColor: Colors.white,
   },
+  
   horizontal: {
     flexDirection: 'row',
     justifyContent: 'space-around',

@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Izumi App",
-    "slug": "IzumiApplicationMobile",
+    "name": "Dpos App",
+    "slug": "DposApplicationMobile",
     "privacy": "public",
-    "owner": "izumi_team",
+    "owner": "daisei_team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.vehoworks.IzumiApplicationMobile",
+      "bundleIdentifier": "com.vehoworks.DposApplicationMobile",
       "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
@@ -28,7 +28,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.vehoworks.IzumiApplicationMobile",
+      "package": "com.vehoworks.DposApplicationMobile",
       "useNextNotificationsApi": true,
       "permissions": [
         "RECEIVE_BOOT_COMPLETED"
@@ -46,7 +46,7 @@
           "color": "#FFFFFF",
           "sounds": [],
           "androidMode": "default",
-          "androidCollapsedTitle": "Izumi App",
+          "androidCollapsedTitle": "Dpos App",
           "iosDisplayInForeground": true
         }
       ],

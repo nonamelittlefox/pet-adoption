@@ -1,12 +1,15 @@
 export const StackName = {
   LoginScreen: 'LoginScreen',
-  DashboardScreen: 'DashboardScreen',
-  SignUpScreen: 'SignUpScreen',
-  MessageSignUpScreen: 'MessageSignUpScreen',
-  ChangePasswordScreen: 'ChangePasswordScreen',
-  MessageConfirmPasswordScreen: 'MessageConfirmPasswordScreen',
-  ForgotPasswordScreen: 'ForgotPasswordScreen',
-  NotifyResetPasswordScreen: 'NotifyResetPasswordScreen',
+  HomeScreen: 'HomeScreen',
+  HelpScreen: 'HelpScreen',
+  SendScreen: 'SendScreen',
+  QuestionScreen: 'QuestionScreen',
+  QuestionDetailScreen: 'QuestionDetailScreen',
+  ResetPasswordScreen: 'ResetPasswordScreen',
+  AuthorizationOTPScreen: 'AuthorizationOTPScreen',
+  NewPasswordScreen: 'NewPasswordScreen',
+  NotificationScreen: 'NotificationScreen',
+  UserInformationScreen: 'UserInformationScreen',
 };
 
 export const Options = {
@@ -14,39 +17,44 @@ export const Options = {
     headerShown: false,
     title: 'Login Screen',
   },
-
-  DashboardScreen: {
+  HomeScreen: {
     headerShown: false,
-    title: 'Dashboard Screen',
+    title: 'Home Screen',
   },
-
-  SignUpScreen: {
+  HelpScreen: {
     headerShown: false,
-    title: 'Sign Up Screen',
+    title: 'Help Screen',
   },
-
-  MessageSignUpScreen: {
+  SendScreen: {
     headerShown: false,
-    title: 'Message Sign Up Screen',
+    title: 'Send Screen',
   },
-
-  ChangePasswordScreen: {
+  QuestionScreen: {
     headerShown: false,
-    title: 'Change Password Screen',
+    title: 'Question Screen',
   },
-
-  MessageConfirmPasswordScreen: {
+  QuestionDetailScreen: {
     headerShown: false,
-    title: 'Message Confirm Password Screen',
+    title: 'Question Detail Screen',
   },
-
-  ForgotPasswordScreen: {
+  ResetPasswordScreen: {
     headerShown: false,
-    title: 'Forgot Password Screen',
+    title: 'Reset Password Screen',
   },
-
-  NotifyResetPasswordScreen: {
+  AuthorizationOTPScreen: {
     headerShown: false,
-    title: 'Notify Reset Password Screen',
+    title: 'Authorization OTP Screen',
+  },
+  NewPasswordScreen: {
+    headerShown: false,
+    title: 'Authorization OTP Screen',
+  },
+  NotificationScreen: {
+    headerShown: false,
+    title: 'Authorization OTP Screen',
+  },
+  UserInformationScreen: {
+    headerShown: false,
+    title: 'Authorization OTP Screen',
   },
 };

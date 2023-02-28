@@ -1,4 +1,3 @@
-import { store } from './../store';
 import request from './config';
 
 export function getOne(SITE, URL, PARAMS) {
@@ -11,10 +10,6 @@ export function getAll(SITE, URL, PARAMS) {
 
 export function postOne(SITE, URL, DATA, PARAMS) {
   return request.postRequest(SITE, URL, DATA, PARAMS);
-}
-
-export function storePostOne(SITE, HEADERS, URL, DATA, PARAMS) {
-  return request.storePostRequest(SITE, URL, HEADERS, DATA, PARAMS);
 }
 
 export function putOne(SITE, URL, DATA, PARAMS) {

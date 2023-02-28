@@ -2,7 +2,6 @@ import axios from 'axios';
 import { store } from 'src/store';
 
 import * as SecureStore from 'expo-secure-store';
-import messaging from '@react-native-firebase/messaging';
 
 import Toast from 'react-native-toast-message';
 
@@ -24,54 +23,6 @@ const USER_NOT_FOUND = {
 
 const handleLogout = async () => {
   store.dispatch({ type: 'LOADING_SET', payload: true });
-
-  await SecureStore.setItemAsync('IS_REFRESH', '0');
-
-  await messaging().deleteToken();
-  store.dispatch({ type: 'SET_TOKEN_FCM', payload: '' });
-
-  store.dispatch({
-    type: 'SET_NUMBER_NOTICE_AND_MESSAGE',
-    payload: {
-      unread_messages: 0,
-      unread_notices: 0,
-    },
-  });
-
-  store.dispatch({
-    type: 'SET_LIST_MESSAGE',
-    payload: [],
-  });
-
-  store.dispatch({
-    type: 'SET_GROUP_CHAT_ID',
-    payload: null,
-  });
-
-  store.dispatch({
-    type: 'SET_PROFILE',
-    payload: {
-      id: null,
-      uuid: null,
-      name: '',
-      email: '',
-      role: '',
-      department_code: '',
-      supervisor_email: '',
-    },
-  });
-  await SecureStore.setItemAsync(
-    'PROFILE',
-    JSON.stringify({
-      id: null,
-      uuid: null,
-      name: '',
-      email: '',
-      role: '',
-      department_code: '',
-      supervisor_email: '',
-    }),
-  );
 
   await SecureStore.setItemAsync('TOKEN', '');
   store.dispatch({ type: 'SET_TOKEN', payload: '' });

@@ -1,13 +1,13 @@
 import React from 'react';
-import Sidebar from '../components/Sidebar/index';
-
+import Sidebar from 'src/components/Sidebar';
 interface propsType {
   navigation: any;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Layout = (props: propsType) => {
-  return <Sidebar />;
+  return (
+    <Sidebar />
+  );
 };
 
 export default Layout;
